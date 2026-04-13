@@ -17,8 +17,8 @@
 
     <!-- Menu -->
     <nav class="hidden md:flex space-x-8 text-gray-600">
-      <a href="#" class="hover:text-blue-600">Home</a>
-      <a href="#" class="hover:text-blue-600">Property</a>
+      <a href="/" class="hover:text-blue-600">Home</a>
+      <a href="/property" class="hover:text-blue-600">Property</a>
       <a href="#" class="hover:text-blue-600">About</a>
       <a href="#" class="hover:text-blue-600">Contact</a>
     </nav>
