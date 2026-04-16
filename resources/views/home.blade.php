@@ -17,18 +17,21 @@
 
     <!-- Menu -->
     <nav class="hidden md:flex space-x-8 text-gray-600">
-      <a href="#" class="hover:text-blue-600">Home</a>
-      <a href="#" class="hover:text-blue-600">Property</a>
+      <a href="/home" class="hover:text-blue-600">Home</a>
+      <a href="property.gear" class="hover:text-blue-600">Property</a>
       <a href="#" class="hover:text-blue-600">About</a>
       <a href="#" class="hover:text-blue-600">Contact</a>
     </nav>
 
     <!-- Auth Buttons -->
     <div class="flex items-center bg-gray-200 rounded-full p-1">
-      <button class="px-4 py-1 text-sm text-gray-600">Sign in</button>
-      <button class="px-5 py-1 text-sm bg-blue-500 text-white rounded-full shadow">
-        Login
-      </button>
+<a href="/register" class="px-4 py-1 text-sm text-gray-600">
+  Sign up
+</a>
+
+<a href="/" class="px-5 py-1 text-sm bg-blue-500 text-white rounded-full shadow">
+  Sign in
+</a>
     </div>
 
   </header>
@@ -37,7 +40,7 @@
 <section class="min-h-screen flex items-center justify-between px-10">
 
   <!-- Text -->
-  <div class="max-w-xl">
+  <div class="max-w-xl"> 
     <h2 class="text-5xl font-bold text-gray-900 leading-tight mb-6">
       Elevate Your Stay,<br>
       Elevate Your Status.
