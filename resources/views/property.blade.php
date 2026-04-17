@@ -13,11 +13,26 @@
   <h1 class="text-blue-600 font-bold tracking-[6px] text-lg">DOVEL</h1>
 
   <ul class="flex gap-6 text-gray-500 text-sm">
-    <li>Home</li>
-    <li class="text-black font-semibold">Property</li>
-    <li>About</li>
-    <li>Contact</li>
-  </ul>
+    <li><a href="/" class="hover:text-blue-500">Home</a></li>
+    
+    <li>
+        <a href="/property" class="hover:text-blue-500">
+            Property
+        </a>
+    </li>
+    
+    <li>
+        <a href="/about" class="hover:text-blue-500">
+            About
+        </a>
+    </li>
+    
+    <li>
+        <a href="/contact" class="hover:text-blue-500">
+            Contact
+        </a>
+    </li>
+</ul>
 
   <div class="flex gap-2 text-xs">
     <button class="px-4 py-1 border rounded-full">Sign in</button>
@@ -42,9 +57,8 @@
     <!-- RIGHT -->
     <div class="flex flex-col items-end gap-4">
 
-      <!-- FILTER (ATAS) -->
+      <!-- FILTER -->
       <div class="flex gap-2 text-xs">
-
         <button class="flex items-center gap-1 px-3 py-1 rounded-full bg-blue-500 text-white shadow">
           <img src="image/restaurant 1.png" class="w-3 h-3">
           Logistics
@@ -59,7 +73,6 @@
           <img src="image/school-bag 1.png" class="w-4 h-4">
           Carrier
         </button>
-
       </div>
 
       <!-- SEARCH -->
@@ -98,6 +111,7 @@
   <!-- CARD GRID -->
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
 
+    <!-- CARD 1 -->
     <div class="bg-white rounded-xl p-5 shadow-sm">
       <h3 class="text-sm font-semibold">Kompor Portable</h3>
       <p class="text-[11px] text-gray-400">Reyon Point, U.S</p>
@@ -105,9 +119,14 @@
         <span class="text-blue-500">$ 350.00</span>
         <span>3.9</span>
       </div>
-      <button class="mt-3 w-full bg-black text-white text-xs py-2 rounded-full">See More</button>
+      <a href="/chekout">
+        <button class="mt-3 w-full bg-black text-white text-xs py-2 rounded-full">
+          See More
+        </button>
+      </a>
     </div>
 
+    <!-- CARD 2 -->
     <div class="bg-white rounded-xl p-5 shadow-sm">
       <h3 class="text-sm font-semibold">Nesting</h3>
       <p class="text-[11px] text-gray-400">8080 Railroad St, U.S</p>
@@ -115,9 +134,14 @@
         <span class="text-blue-500">$ 500.00</span>
         <span>4.1</span>
       </div>
-      <button class="mt-3 w-full bg-black text-white text-xs py-2 rounded-full">See More</button>
+      <a href="/chekout">
+        <button class="mt-3 w-full bg-black text-white text-xs py-2 rounded-full">
+          See More
+        </button>
+      </a>
     </div>
 
+    <!-- CARD 3 -->
     <div class="bg-white rounded-xl p-5 shadow-sm">
       <h3 class="text-sm font-semibold">Alat Makan</h3>
       <p class="text-[11px] text-gray-400">Tainan Tower, Portugal</p>
@@ -125,9 +149,14 @@
         <span class="text-blue-500">$ 700.00</span>
         <span>4.9</span>
       </div>
-      <button class="mt-3 w-full bg-black text-white text-xs py-2 rounded-full">See More</button>
+      <a href="/chekout">
+        <button class="mt-3 w-full bg-black text-white text-xs py-2 rounded-full">
+          See More
+        </button>
+      </a>
     </div>
 
+    <!-- CARD 4 -->
     <div class="bg-white rounded-xl p-5 shadow-sm">
       <h3 class="text-sm font-semibold">Satu Set Logistics</h3>
       <p class="text-[11px] text-gray-400">Reyon Point, U.S</p>
@@ -135,7 +164,11 @@
         <span class="text-blue-500">$ 350.00</span>
         <span>3.9</span>
       </div>
-      <button class="mt-3 w-full bg-black text-white text-xs py-2 rounded-full">See More</button>
+      <a href="/chekout">
+        <button class="mt-3 w-full bg-black text-white text-xs py-2 rounded-full">
+          See More
+        </button>
+      </a>
     </div>
 
   </div>
