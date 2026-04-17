@@ -14,14 +14,22 @@ Route::get('/forget', function () {
     return view('Auth.forget');
 });
 
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+});
+
+Route::get('/reports', function () {
+    return view('admin.reports');
+});
+
 Route::get('/home', function () {
-    return view('home');
+    return view('user.home');
 });
 
 Route::get('/property.gear', function () {
-    return view('property.gear');
+    return view('user.property.gear');
 });
 
 Route::get('/property.carrier', function () {
-    return view('property.carrier');
+    return view('user.property.carrier');
 });

@@ -67,7 +67,8 @@
           <div class="flex flex-col text-xs text-white">
             <label class="mb-1">Location</label>
             <select class="text-black px-2 py-1 rounded">
-              <option>Royal Mesa, U.S</option>
+              <option>Banda Aceh</option>
+              <option>Aceh Besar</option>
             </select>
           </div>
 
